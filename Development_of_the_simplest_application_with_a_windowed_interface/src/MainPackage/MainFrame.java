@@ -32,7 +32,6 @@ public class MainFrame extends JFrame{
         setTitle("Калькулятор");
         setSize(WIDTH,HEIGHT);
         setResizable(false);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         Toolkit toolkit = Toolkit.getDefaultToolkit();
         setLocation((toolkit.getScreenSize().width - WIDTH)/2,(toolkit.getScreenSize().height - HEIGHT)/2);
@@ -218,7 +217,6 @@ public class MainFrame extends JFrame{
         contentBox.add(Box.createVerticalGlue());
         getContentPane().add(contentBox, BorderLayout.CENTER);
 
-        setVisible(true);
     }
 
     private void addBoxFormula(Box boxFormula, int formulaID){
