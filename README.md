@@ -1,1 +1,1 @@
-# Lab2
+# This project was created for exams
